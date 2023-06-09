@@ -44,33 +44,35 @@ body {
   /*HEADER*/
 
   #header{
-    height: 300px;
+    height: 250px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
     text-align: center;
     align-items: center;
-    background-image: url(./images/couverture.jpg);
+    background-image: url(./images/couverture.png);
     background-size: cover;
     margin-bottom: 20px;
   }
 
   .header_h1{
-    background-color: rgba(119, 136, 153, 0.8);
-    border: 2px solid whitesmoke;
+    background-color: rgba(119, 136, 153, 0.9);
+    border: 1px solid whitesmoke;
     border-radius: 20px;
     width: 80%;
-    font-size: 2.5em;
+    font-size: 1.8em;
     font-weight: bold;
     padding: 10px;
   }
 
   .header_ul{
-    background-color: rgba(119, 136, 153, 0.8);
-    border: 2px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(119, 136, 153, 0.9);
+    border: 1px solid whitesmoke;
     border-radius: 20px;
-    width: 80%;
-    font-size: 1.2em;
+    width: 70%;
+    font-size: 1em;
     font-weight: 600;
     padding: 10px;
   }
