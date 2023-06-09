@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: rgba(119, 136, 153, 0.4);
   }
   
   a {
@@ -12,6 +13,11 @@ body {
     font-weight: normal;
     margin: 0;
     padding: 0;
+  }
+
+  h2{
+    font-weight: bolder;
+    font-size: xx-large;
   }
   
   p {
@@ -38,7 +44,7 @@ body {
   /*HEADER*/
 
   #header{
-    height: 250px;
+    height: 300px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
@@ -50,25 +56,28 @@ body {
   }
 
   .header_h1{
-    border: 1px solid whitesmoke;
-    background-color: rgba(245, 245, 245, 0.5);
+    background-color: rgba(119, 136, 153, 0.8);
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
     width: 80%;
     font-size: 2.5em;
     font-weight: bold;
+    padding: 10px;
   }
 
   .header_ul{
-    border: 1px solid whitesmoke;
-    background-color: rgba(245, 245, 245, 0.5);
+    background-color: rgba(119, 136, 153, 0.8);
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
     width: 80%;
     font-size: 1.2em;
     font-weight: 600;
+    padding: 10px;
   }
 
   /*PRESENTATION*/
 
   #presentation{
-    border: 1px solid rebeccapurple;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,19 +85,78 @@ body {
   }
 
   .presentation_h2{
-    border: 1px solid green;
     margin-bottom: 20px;
   }
 
   .presentation_p{
-    border: 1px solid blue;
     width: 80%;
     padding: 5px;
+    padding-bottom: 25px;
+    box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.2);
   }
 
+  /*MAP*/
 
+  .map {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  
+  iframe{
+    width: 100%;
+  }
 
+  .map_h2{
+    margin-bottom: 25px;
+  }
 
+  .map_horaire{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+  }
+
+  .map_ul{
+    width: 80%;
+    padding-bottom: 25px;
+    box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.2);
+  }
+
+  /*CONTACT*/
+  #contact{
+    margin-bottom: 50px;
+  }
+  .contact{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  .contact_h2{
+    margin-bottom: 25px;
+  }
+
+  .contact_ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+    width: 100%;
+    box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.2);
+  }
+
+  .contact_li{
+    margin-bottom: 10px;
+  }
 
 
 
