@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background: #6681A1;
   }
   
   a {
@@ -37,6 +38,27 @@ body {
 
   /*HEADER*/
 
+  #header{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  .header_titre{
+    padding: 25px;
+  }
+
+  .header_img{
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+  }
+
+  .header_p{
+    padding: 15px 25px;
+    align-items: center;
+    text-align: center;
+  }
 
 
 
@@ -44,8 +66,9 @@ body {
 
 
 
-
-
+#contact{
+  margin-bottom: 150px;
+}
 
   
 /* Styles pour les grands écrans */
