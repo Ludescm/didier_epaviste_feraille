@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #6681A1;
+    background: #6681a1ad;
   }
   
   a {
@@ -60,6 +60,52 @@ body {
     text-align: center;
   }
 
+  .header_navbar{
+    display: none;
+  }
+
+  /*Services*/
+
+  .details{
+    border: 1px solid orange;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 25px 0;
+  }
+
+  .details h3{
+    border: 2px solid orangered;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .details ul{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.8em;
+    align-self: center;
+    width: 90%;
+    justify-content: center;
+  }
+
+  .details li{
+    display: flex;
+    align-items: baseline;
+    align-content: space-around;
+  }
+
+  .details i {
+    margin-right: 30px;
+    color: #C77B43;
+    font-size: 1.2em;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #C77B43;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 2px;
+  }
+  
+
 
 
 
@@ -73,5 +119,11 @@ body {
   
 /* Styles pour les grands écrans */
 @media screen and (min-width: 992px){
-    
+
+
+
+    /*navbar*/
+    .header_navbar{
+      display: flex;
+    }
 }
