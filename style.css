@@ -67,6 +67,8 @@ body {
     justify-content: center;
     color: white;
     background-image: url(./images/tinified/carte_visite.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
     text-shadow: -2px 2px 2px rgba(0,0,0,0.6);
   }
 
